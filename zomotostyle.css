@@ -1,0 +1,50 @@
+.navbar1{
+    margin-top: 20px;
+}
+.navbar1 .heading{
+     margin-top: 20px;
+     margin-left: 40px;
+     font-size: 15px;
+}
+.navbar1 .list{
+
+}
+.navbar1 ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 750px;
+    margin-top: -50px;
+}
+.navbar1 ul li {
+    padding: 15px;
+
+}
+.navbar1 .content{
+    margin-left: 450px;
+    margin-top: 60px;
+}
+.navbar1 .heading2{
+    margin-left: 400px;
+}
+
+.navbar1 .titlebar2{
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 2rem;
+    font-size: 10px;
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 100vh;
+    border-radius: 10px;
+    margin-left: 350px;
+} 
+.navbar1 .titlebar2 h1{
+    align-content: center;
+    padding-left: 12px;
+}
+.navbar1 .titlebar2 h2{
+    align-content: center;
+    padding-right: 12px;
+}
+

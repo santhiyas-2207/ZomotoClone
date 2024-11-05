@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-left: 45px;
+}
+.navbar{
+    display: flex;
+}
+.navbar .titlebar1{
+    
+    width: 20%;
+}
+.navbar .titlebar1 img{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.navbar .titlebar2{
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 2rem;
+    font-size: 10px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    width: 100vh;
+    border-radius: 15px;
+} 
+.navbar .titlebar2 h1{
+    align-content: center;
+    padding-left: 12px;
+}
+.navbar .titlebar2 h2{
+    align-content: center;
+    padding-right: 12px;
+}
+.navbar .titlebar3{
+    display: inline-flex;
+    margin-left: 85px;
+    margin-top: 57px;
+    gap: 4rem;
+    font-size: 12px;
+
+}
+.navbar2{
+    margin-top: 40px;
+}
+.navbar2 .titlebar1{
+    display: inline-flex;
+    font-size: 10px;
+    margin-left: 55px;
+    transform: skew(-20deg);
+}
+.navbar2 .titlebar1 h2{
+    border-right: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar2 .titlebar1 h2:last-child{
+    border-right: none;
+    color: gray;
+}
+.navbar3{
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.navbar3 .titlebar1{
+    margin: 5px;
+}
+.navbar3 .titlebar1 button{
+    padding: 5px;
+}
+.navbar4{
+    margin-top: 40px;
+    background-color: lightgray;
+    height: 50vh;
+}
+.navbar4 .heading h2{
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.navbar4 .gallery{
+    float: left;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.navbar4 .gallery .desc{
+    padding-left: 40px;
+}
+.navbar5 {
+    margin-top: 50px;
+}
+.navbar5 .card{
+    margin-top: 30px;
+    
+}
+.navbar5 .crd{
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar5 .crd h2{
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: -20px;
+}
+.navbar5 .crd h3{
+    color:darkgrey;
+    margin-left: 18px;
+    font-size: 15px;
+}
+.navbar5 .crd h4{
+    color: darkgrey;
+    margin-left: 230px;
+    margin-top: -18px;
+    font-size: 16px;
+}
+
+.navbar5 .crd .img img{
+    margin: 10px;
+}
+.navbar5 .crd button{
+    margin-left: 280px;
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
